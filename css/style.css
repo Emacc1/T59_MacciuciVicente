@@ -1,0 +1,9 @@
+.banner{
+    
+    display: flex;
+    height: 350px;
+    box-sizing: content-box;
+    justify-content:center;
+
+}
+
