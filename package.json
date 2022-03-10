@@ -1,0 +1,19 @@
+{
+  "name": "t59",
+  "version": "1.0.0",
+  "description": "Desafio 5 repositorio de animaciones y transiciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emacc1/T59_MacciuciVicente.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emacc1/T59_MacciuciVicente/issues"
+  },
+  "homepage": "https://github.com/Emacc1/T59_MacciuciVicente#readme"
+}
