@@ -4,7 +4,9 @@
   "description": "Desafio 5 repositorio de animaciones y transiciones",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "dev":"sass style.scss style.css -w --no-source-map -s compressed"
+
   },
   "repository": {
     "type": "git",
@@ -12,8 +14,5 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Emacc1/T59_MacciuciVicente/issues"
-  },
-  "homepage": "https://github.com/Emacc1/T59_MacciuciVicente#readme"
+   
 }
