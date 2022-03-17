@@ -1,5 +1,11 @@
 header{
     background-color: $colorPrimary;
     overflow: hidden;
+
+    .navbar
+    ul{
+
+        font-size: $textBase
+    }
 }
 
