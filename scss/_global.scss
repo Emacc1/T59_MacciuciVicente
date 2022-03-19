@@ -21,7 +21,7 @@ html {
 }
 
 
-@each $heading, $size in (h2: 12px, h3: 18px){
+@each $heading, $size in (h2: 12px, strong: 18px){
 
     #{$heading}{
         font-size: $size;
