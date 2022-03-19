@@ -3,7 +3,8 @@ main{
     overflow: hidden;
 
     .fondoBanner{
-        height: 500px;
+        
+        @include sizes (100vw, 500px);
         
         
 
@@ -40,17 +41,20 @@ main{
     border-radius: $boxradius;
     margin-top: 70px;
 
-    div
+
+
+
     h2{
 
         font-size:$textLarge;
     }
 
-    div
     span{
+        @extend.textbox;
 
-        font-size:$textBase;
     }
+
+    
     
 }
 
@@ -63,16 +67,26 @@ main{
         
 
     li{
+        
         background-color: $colorPrimaryTransp;
         color: white;
         border-radius: $boxradius;
         padding: 15px;
+
+     
         
-
-    
     }
-    
 
- 
+    li
+    span{
+        
+        @extend .textbox;
+        
+        
+    }
+
 }
+
+         
+
 

@@ -7,3 +7,24 @@ html {
     font-size: 62.5%;
 }
 
+@mixin sizes ($width, $height){
+
+    width: $width;
+    height: $height;
+}
+
+.textbox{
+
+    font-size:$textBase;
+    color: $colorSecundary;
+    margin: 0 auto;
+}
+
+
+@each $heading, $size in (h2: 12px, h3: 18px){
+
+    #{$heading}{
+        font-size: $size;
+    }
+}
+    
